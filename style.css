@@ -1,0 +1,49 @@
+img {
+    max-width: 80%;
+    height: 500px; /* Set your desired height */
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 70px; /* Adjust the distance as needed */
+    font-size: 2rem;
+    img {
+        max-width: 90%;
+        height: 800px; /* Set your desired height */
+        cursor: pointer;
+        border-radius: 100px;
+        transition: transform 0.3s ease;
+    }
+    h1 {
+        color: white;
+        font-family: 'Montserrat ', sans-serif;
+        text-align: center;
+    }
+    @keyframes bgAnimation {
+        0% { background-color: black; }
+        50% { background-color: #011d11; }
+        100% { background-color: black; }
+    }
+    body {
+        animation: bgAnimation 5s infinite alternate;
+        margin-top: 50px;
+    }
+}
+@keyframes bgAnimation {
+    0% { background-color: black; }
+    50% { background-color: #011d11; }
+    100% { background-color: black; }
+}
+body {
+    animation: bgAnimation 5s infinite alternate;
+}
+h1 {
+    color: white;
+    font-family: 'orbitron', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 0px 0px 50px rgb(0, 4, 255);
+}
